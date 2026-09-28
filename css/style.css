@@ -1,0 +1,1167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #030712;
+  font-family: 'Montserrat',sans-serif;
+  min-height: 85vh;
+}
+body .span {
+  display: block;
+  color: #5CB3FF;
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+.bg-custom-dark {
+  background-color: rgba(1, 17, 43, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 15px 0;
+  transition: background-color 0.3s ease;
+}
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: #ffffff !important;
+}
+.brand-gold {
+  color: #5CB3FF;
+  font-weight: 400;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: #8d9399
+}
+.navbar-nav .nav-link {
+  font-family: 'Montserrat', sans-serif;
+  color: #8d9399;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav {
+  color: #5CB3FF !important;
+}
+.btn-agendamento {
+  background-color: #2563eb !important;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  padding: 10px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+  font-family: 'Monteserrat', sans-serif;
+}
+.btn-agendamento:hover {
+  background-color: #05308e;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(197, 160, 89, 0.3);
+}
+
+
+.home .hero {
+  padding: 80px 0;
+}
+.home .hero .subtitulo {
+  margin-top: 80px;
+  color: #5CB3FF;
+  font-size: 0.90rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 40px;
+}
+.home .hero .titulo {
+  white-space: nowrap;
+  font-size: 3.0rem;
+  font-weight: 900;
+  color: white;
+  line-height: 0.92;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  margin-bottom: 40px;
+}
+.home .hero .descricao {
+  color: #9ca3af;
+  font-size: 1.09rem;
+  line-height: 1.6;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.home .hero .grupo-botoes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 17px;
+}
+.home .hero .btn-primary {
+  background-color: #2563eb;
+  color: #ffffff;
+  padding: 15px 12px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  transition: background-color 0.2s ease;
+  white-space: nowrap;
+}
+.home .hero .btn-primary:hover {
+  background-color: #022583;
+}
+.home .hero .btn-outline {
+  white-space: nowrap;
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 15px 26px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  transition: all 0.2s ease;
+}
+.home .hero .btn-outline:hover {
+  border-color: #3b82f6;
+  background-color: rgba(59, 130, 246, 0.05);
+}
+.home .diferenciais {
+  background-color: #030712;
+  padding: 100px 0;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+.home .diferenciais .container-fluid {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.home .diferenciais .titulo {
+  font-size: 2.8rem;
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+.home .diferenciais .descricao {
+  color: #9ca3af;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-top: 30px;
+}
+.home .cards-container {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background-color: rgba(3, 7, 18, 0.6);
+  backdrop-filter: blur(5px);
+}
+.home .card-item {
+  padding: 40px 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  transition: background-color 0.3s ease;
+}
+.home .card-item:hover {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+.home .card-header-custom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 35px;
+}
+.home .numero-card {
+  color: #4b5563;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+.home .card-title {
+  font-size: 1.2rem;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+.home .card-text {
+  color: #9ca3af;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  margin: 0;
+}
+.home .chamada-agendamento {
+  background-color: #030712;
+  padding: 70px 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+.home .titulo-chamada {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -1.5px;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+.home .descricao-chamada {
+  margin-top: 30px;
+  color: #9ca3af;
+  font-size: 1.05rem;
+  max-width: 580px;
+  margin: 0 auto 40px auto;
+  line-height: 1.6;
+  font-weight: 400;
+}
+.home .grupo-botoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  white-space: nowrap;
+  margin-bottom: 35px;
+}
+.home .botao-principal {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #2563eb;
+  color: #ffffff;
+  padding: 14px 15px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border-radius: 2px;
+  transition: background-color 0.2s ease;
+}
+.home .botao-principal:hover {
+  background-color: #1d4ed8;
+  color: #ffffff;
+}
+.home .botao-secundario {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.03);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 15px 7px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-decoration: none;
+  border-radius: 2px;
+  transition: all 0.2s ease;
+}
+.home .botao-secundario:hover {
+  border-color: #3b82f6;
+  background-color: rgba(59, 130, 246, 0.08);
+  color: #ffffff;
+}
+.home .rodape-informacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  color: #6b7280;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.home .ponto-azul {
+  color: #3b82f6;
+  font-size: 1rem;
+}
+
+
+.servicos {
+  display: block !important;
+  height: auto !important;
+  min-height: 100% !important;
+  overflow: visible !important;
+  clear: both !important;
+  margin: 130px 0px 45px 0px;
+}
+.servicos .dropdown {
+  float: right;
+  margin-right: 45px;
+}
+.servicos h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: white;
+}
+.servicos p {
+  font-size: 1.0rem;
+  color: #A6ACBE;
+  margin-top: 10px;
+}
+.servicos h3 {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  margin: 0;
+}
+.servicos .card {
+  background-color: #030712;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: all 0.3s ease;
+}
+.servicos .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(79, 94, 142, 0.447);
+  border: 1px solid blue;
+}
+.servicos .row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  height: auto !important;
+  clear: both !important;
+  row-gap: 60px;
+  margin: 20px 10px 0px 0px;
+  height: 480px;
+}
+.servicos .row .preco {
+  margin-top: 10px;
+  justify-content: center;
+  margin-right: 45px;
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+.servicos .row .preco p {
+  margin: 0;
+  margin-left: 27px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+.servicos .row .preco h4 {
+  font-size: 25px;
+  font-family: "Inter", Arial;
+  color: #5CB3FF;
+  font-weight: 800;
+  margin-left: 30px;
+  margin: 0;
+}
+.servicos .row .duracao {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #A6ACBE;
+  margin-left: 27px;
+}
+.servicos .row .duracao .fa fa-clock {
+  color: #A6ACBE;
+}
+.servicos .row button {
+  padding: 7px;
+  background-color: #3460e4;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+.servicos .row button:hover {
+  background-color: #5CB3FF;
+}
+.servicos .row button a {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+
+.luz {
+  padding: 80px 0;
+}
+.sobre .tag-sobre {
+  color: #5CB3FF;
+  font-weight: 300;
+  font-size: 13px;
+  letter-spacing: 2px;
+  display: inline-block;
+  margin-bottom: 24px;
+  margin-top: 80px;
+}
+.sobre .titulo {
+  font-size: 3.0rem;
+  font-weight: 900;
+  line-height: 1.05;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+  letter-spacing: -1px;
+}
+.sobre .titulo .azul, .span-valores, .span{
+  color: #5CB3FF;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: 400 !important;
+  font-synthesis: none;
+}
+.sobre .descricao p {
+  color: #8a9bb2;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.sobre .descricao p:last-child {
+  margin-bottom: 0;
+}
+.sobre .image-col {
+  display: none;
+}
+.sobre .image-wrapper {
+  display: none;
+}
+.sobre .image-wrapper img {
+  display: none;
+}
+.sobre .valores-section {
+  background-color: #040913;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.sobre .tag {
+  color: #3b82f6;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.sobre .titulo-valores {
+  font-size: 2.7rem;
+  font-weight: 900;
+  line-height: 1.05;
+  color: #ffffff;
+  letter-spacing: -1px;
+  margin-bottom: 45px;
+}
+.sobre .valores-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.sobre .valor-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.sobre .valor-info h3 {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+.sobre .valor-info p {
+  color: #6d7f99;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.sobre .valores-image {
+  display: none;
+}
+.sobre .image-wrapper {
+  display: none;
+}
+.sobre .image-wrapper img {
+  display: none;
+}
+.sobre .chamada {
+  background-color: #040913;
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sobre .container-chamada {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sobre .titulo-chamada {
+  color: #ffffff;
+  font-size: 2.6rem;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+.sobre .descricao-chamada {
+  color: #6d7f99;
+  font-size: 1.0rem;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+.sobre .botao-chamada {
+  display: inline-block;
+  background-color: #3867d6;
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px 24px;
+  border-radius: 2px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.sobre .cta-button:hover {
+  background-color: #2b52b3;
+  transform: translateY(-2px);
+}
+
+
+.contato {
+  margin-top: 150px;
+}
+.contato .secao1 h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 800;
+}
+.contato .secao1 p {
+  font-size: 1.07rem;
+  color: #A6ACBE;
+  margin: 10px 0px 10px 0px;
+}
+.contato form {
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 0 0px 100px 0px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.contato form .form-control {
+  background-color: #030712 !important;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+.contato form .form-control:focus {
+  color: white;
+  border: 1px solid #5CB3FF;
+  box-shadow: 0 0 5px #5CB3FF;
+}
+.contato form .form-control::placeholder {
+  color: #8492a6;
+  opacity: 1;
+}
+.contato button {
+  background-color: #2563eb;
+  padding: 14px 6px;
+  width: 61%;
+  transition: transform 0.3s ease;
+  margin: 20px 0 30px 0;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+.contato form button:hover {
+  background-color: #1d4ed8;
+  color: rgb(255, 255, 255);
+}
+
+
+.agendamento h2 {
+  color: white;
+  font-size: 2.8rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  margin-top: 150px;
+}
+.agendamento p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  color: #A6ACBE;
+}
+.agendamento .cards-grid {
+  grid-template-columns: 1fr;
+}
+.agendamento .card-opcao {
+  display: block;
+  cursor: pointer;
+  margin: 0;
+}
+.agendamento .checkbox-servico-extra {
+  display: none;
+}
+.agendamento .titulo-secao {
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.agendamento .card-conteudo {
+  background-color: #030712;
+  border: 1px solid #0f1c30;
+  padding: 18px 20px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.25s ease-in-out;
+}
+.agendamento .nome-servico {
+  color: #8492a6;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.25s ease;
+  font-family: 'Montserrat', sans-serif !important;
+}
+.agendamento .preco-servico {
+  color: #5CB3FF;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.agendamento .checkbox-servico-extra:checked + .card-conteudo {
+  border-color: #1e70e6;
+  background-color: #051329;
+  box-shadow: 0 0 8px rgba(30, 112, 230, 0.2);
+}
+.agendamento .checkbox-servico-extra:checked + .card-conteudo .nome-servico {
+  color: #ffffff;
+}
+.agendamento .card-opcao:hover .card-conteudo {
+  border-color: #02245bd9;
+}
+.agendamento form {
+  background-color: #030712;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  margin: 30px 0px 80px 0px;
+}
+.agendamento form .form-label {
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  font-size: 13px;
+  color: white;
+}
+.agendamento form .form-control, .agendamento form .form-select {
+  background-color: #030712 !important;
+  color: #8492a6;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  font-family: 'Monteserrat', sans-serif;
+}
+.agendamento form .form-control:focus, .agendamento form .form-select:focus {
+  background-color: #030712 !important;
+  color: #8492a6;
+  border: 1px solid #5CB3FF;
+  box-shadow: 0 0 5px #5CB3FF;
+}
+.agendamento form .form-control::placeholder, .agendamento form .form-select::placeholder {
+  color: #8492a6;
+  opacity: 1;
+}
+.agendamento form input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  filter: invert(1);
+  opacity: 0.7;
+}
+.agendamento h3 {
+  font-size: 30px;
+  color: white;
+  font-weight: 800;
+  text-align: center;
+}
+.agendamento #total {
+  font-family: 'Montserrat', sans-serif;
+  color: #5CB3FF;
+  margin: 13px 0px 35px 4px;
+  font-weight: 600;
+}
+.agendamento #btn-ag button {
+  border-radius: 5px;
+  background-color: #2563eb;
+  padding: 7px 9px;
+  width: 65%;
+  transition: transform 0.3s ease;
+  margin: -20px 0 30px 0;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.agendamento #btn-ag button:hover {
+  background-color: #1d4ed8;
+}
+
+
+.rodape-site {
+  background-color: #030712;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 40px 0;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+.rodape-site .container-fluid {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.linha-rodape {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.bloco-esquerdo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.logo-rodape {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+.logo-brancura {
+  color: #ffffff;
+}
+.logo-azul {
+  color: #5CB3FF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+.texto {
+  color: #6b7280;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin: 0;
+  text-transform: uppercase;
+}
+.bloco-direito {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.item-contato {
+  color: #9ca3af;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.item-contato:hover {
+  color: #ffffff;
+}
+@media (min-width: 769px) {
+.navbar .nav-link {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.navbar-collapse {
+  flex-grow: 0;
+}
+.home .hero {
+  position: relative;
+  background-image: linear-gradient(to right, rgba(3, 7, 18, 0.95) 30%, rgba(3, 7, 18, 0.4)), 
+    url('../imagens/hero-car.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 99vh;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding: 100px 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.home .hero .subtitulo {
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+}
+.home .hero .titulo {
+  font-size: 5.2rem;
+  margin-bottom: 28px;
+}
+.home .hero .descricao {
+  font-size: 1.25rem;
+  max-width: 580px;
+  margin-bottom: 42px;
+}
+.home .hero .grupo-botoes {
+  justify-content: normal;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.home .hero .btn-primary {
+  padding: 18px 38px;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
+}
+.home .hero .btn-primary:hover {
+  background-color: #022583;
+}
+.home .hero .btn-outline {
+  padding: 18px 38px;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+.home .hero .btn-outline:hover {
+  border-color: #3b82f6;
+  background-color: rgba(59, 130, 246, 0.05);
+}
+.home .diferenciais {
+  min-height: 94vh;
+  position: relative;
+  overflow: hidden;
+}
+.home .diferenciais .container-fluid {
+  position: relative;
+  z-index: 1;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.home .diferenciais .titulo {
+  font-size: 3.2rem;
+}
+.home .diferenciais .descricao {
+  margin-top: 100px;
+  max-width: 420px;
+}
+.home .card-item {
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  transition: background-color 0.3s ease;
+}
+.home .card-item:hover {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+.home .card-header-custom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 35px;
+}
+.home .chamada-agendamento {
+  min-height: 70vh;
+  position: relative;
+  padding: 100px 20px;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  overflow: hidden;
+}
+.home .chamada-agendamento .container {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.home .titulo-chamada {
+  font-size: 3.6rem;
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+.home .descricao-chamada {
+  font-size: 1.1rem;
+  max-width: 580px;
+}
+.home .botao-principal {
+  padding: 16px 32px;
+  transition: background-color 0.2s ease;
+}
+.home .botao-principal:hover {
+  background-color: #1d4ed8;
+  color: #ffffff;
+}
+.home .botao-secundario {
+  padding: 16px 32px;
+  transition: all 0.2s ease;
+}
+.home .botao-secundario:hover {
+  border-color: #3b82f6;
+  background-color: rgba(59, 130, 246, 0.08);
+  color: #ffffff;
+}
+
+
+.servicos {
+  margin-top: 80px;
+  padding: 100px 0 100px 0;
+}
+.servicos .dropdown {
+  margin-right: 50px;
+}
+.servicos h1 {
+  font-size: 70px;
+}
+.servicos .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: all 0.3s ease;
+}
+.servicos .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(79, 94, 142, 0.447);
+  border: 1px solid blue;
+}
+.servicos .card button {
+  display: inline-block;
+  margin-top: auto;
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+  padding: 14px 10px;
+  border: none;
+  border-radius: 2px;
+}
+
+
+.luz {
+  width: 100%;
+  min-height: 98vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+}
+.sobre .container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sobre .content-col {
+  flex: 1;
+  max-width: 540px;
+}
+.sobre .titulo {
+  font-size: 72px;
+  line-height: 0.95;
+}
+.sobre .descricao p:last-child {
+  margin-bottom: 0;
+}
+.sobre .image-col {
+  display: block;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.sobre .image-wrapper {
+  display: block;
+  margin-top: 80px;
+  position: relative;
+  width: 100%;
+  max-width: 560px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 0 50px 5px rgba(143, 142, 142, 0.127);
+}
+.sobre .image-wrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+.sobre .valores-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sobre .valores-container {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.sobre .valores-content {
+  flex: 1;
+  max-width: 540px;
+}
+.sobre .titulo-valores {
+  font-size: 3.5rem;
+}
+.sobre .valores-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.sobre .valor-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.sobre .valores-image {
+  display: block;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.sobre .image-wrapper {
+  display: block;
+  width: 100%;
+  max-width: 540px;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 0 50px 5px rgba(143, 142, 142, 0.127);
+}
+.sobre .image-wrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+.sobre .chamada {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sobre .container-chamada {
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sobre .titulo-chamada {
+  font-size: 3.5rem;
+}
+.sobre .botao-chamada {
+  display: inline-block;
+  padding: 16px 32px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.sobre .botao-chamada:hover {
+  background-color: #2b52b3;
+  transform: translateY(-2px);
+}
+
+
+.contato .secao1 h2 {
+  font-size: 68px;
+}
+.contato p {
+  font-size: 15px;
+}
+.contato form {
+  padding: 30px;
+  margin: 20px 30px 110px 30px;
+}
+.contato form .form-control {
+  transition: all 0.3s ease;
+}
+.contato form .form-control:focus {
+  color: #8492a6;
+  border: 1px solid #5CB3FF;
+  box-shadow: 0 0 5px #5CB3FF;
+}
+.contato form .form-label {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.contato form .form-control::placeholder {
+  color: #8492a6;
+  opacity: 1;
+}
+.contato form button {
+  border: 0;
+  font-size: 0.85rem;
+  color: white;
+  width: 30%;
+  transition: transform 0.3s ease;
+  margin: 20px 0 20px 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.contato form button:hover {
+  background-color: #3596eb;
+  color: rgb(255, 255, 255);
+}
+
+
+.agendamento h2 {
+  font-size: 70px;
+}
+.agendamento p {
+  font-size: 16px;
+  margin: 20px 30px 50px 30px;
+}
+.agendamento .cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+.agendamento #formAgendamento {
+  padding: 20px;
+  margin: 20px 30px 110px 30px;
+  font-family: 'Monteserrat', sans-serif;
+}
+.agendamento .form-label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: white;
+}
+.agendamento #total {
+  margin: 40px 0 0 0;
+  margin-bottom: 0px;
+}
+.agendamento #btn-ag button {
+  padding: 14px 15px;
+  width: 50%;
+  margin: 25px 0 50px 0;
+}
+
+
+.rodape-site .container-fluid {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.item-contato {
+  color: #9ca3af;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.item-contato:hover {
+  color: #ffffff;
+}
+}
